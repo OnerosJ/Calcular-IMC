@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/imc.ico" type="image/x-icon">
+
+  <title>Calcular IMC</title>
+</head>
+
+<body>
+  <div class="backgroundImage"></div>
+  <div id="box">
+    <h1>IMC</h1>
+    <div id="inputs">
+      <input class="space" type="text" data-ls-module="charCounter" maxlength="3" placeholder="Digite sua altura em cm">
+      <input class="space" type="number" placeholder="Digite seu peso">
+      <input class="cal" id="cal" type="button" value="CALCULAR">
+    </div>
+    <div class="containerResult" style="display: none">
+      <p id="resultText">resultado</p>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>

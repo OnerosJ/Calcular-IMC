@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@keyframes opacity {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes size {
+    from {
+        font-size: 19px
+    }
+
+    to {
+        font-size: 20px
+    }
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.backgroundImage {
+    background-image: url('https://images4.alphacoders.com/987/987919.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(2px);
+}
+
+#box {
+    position: absolute;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    padding: 2rem 0;
+    border-radius: 14px;
+    flex-direction: column;
+    animation: opacity 0.6s;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #0F1029;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+
+.containerResult {
+    width: 60%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F1029;
+    border-radius: 7px;
+    margin-top: 20px;
+    animation: opacity 0.6s;
+}
+
+#resultText {
+    color: #FFFFFF;
+    opacity: 0.8;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+#inputs {
+    display: flex;
+    width: 100%;
+    margin: 0 8rem;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.space {
+    width: 60%;
+    margin-bottom: 10px;
+    background-color: rgba(105, 105, 105, 0.336);
+    color: #0F1029;
+    padding: 6px 8px;
+    border-radius: 4px;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.space::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+.cal {
+    background-color: #0F1029;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+}
+
+.cal:hover {
+    background-color: rgb(125, 118, 189);
+}
